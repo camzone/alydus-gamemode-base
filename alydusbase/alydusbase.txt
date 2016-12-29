@@ -1,0 +1,7 @@
+"sandbox"
+{
+	"base"		"base"
+	"title"		"A nice base for developing gmod gamemodes."
+	"maps"		"^dev_"
+	"menusystem"	"0"
+}
