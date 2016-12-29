@@ -7,4 +7,4 @@ A nice base for GMod gamemodes.
 - Fully commented for easy understanding.
 
 # Usage
-Change gamemode name and your ready to go, really.
+Change the variable 'gamemodeFolderName' in init.lua and cl_init.lua to the name of your gamemode's folder, then your ready to go!
