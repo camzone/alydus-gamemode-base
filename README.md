@@ -1,4 +1,4 @@
-# alydus-gamemode-base
+# Alydus's Gamemode Base
 A nice base for GMod gamemodes.
 
 # Features
