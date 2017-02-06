@@ -2,7 +2,7 @@ include("shared.lua")
 
 // Variables
 local doConsoleMessages = true // Show include information on init?
-local gamemodeFolderName = "alydusbase" // The gamemode folder name
+local gamemodeFolderName = engine.ActiveGamemode() // The gamemode folder name
 
 local clientFiles, clientDirectories = file.Find(gamemodeFolderName .. "/gamemode/client/*", "LUA")
 local sharedFiles, sharedDirectories = file.Find(gamemodeFolderName .. "/gamemode/shared/*", "LUA")
