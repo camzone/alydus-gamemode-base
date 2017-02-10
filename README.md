@@ -8,4 +8,9 @@ A nice base for GMod gamemodes.
 - Basic HUD setup that hides default HL2 HUD elements. (client/cl_hud.lua)
 
 # Usage
-Change the variable 'gamemodeFolderName' in init.lua and cl_init.lua to the name of your gamemode's folder, then your ready to go!
+Rename the folder "alydusbase" to your new gamemode name. New files should be created within client, server, shared, or auto folders with the appropriate prefix. For example:
+
+  * client/cl_hud.lua
+  * server/sv_test.lua
+  * shared/sh_template.lua
+  * auto/cl_example.lua
