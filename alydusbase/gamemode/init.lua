@@ -74,7 +74,7 @@ for k,v in pairs(clientDirectories) do
 end
 
 for k,v in pairs(file.Find(gamemodeFolderName .. "/gamemode/client/cl_*.lua", "LUA")) do
-	include("client/" .. v)
+	AddCSLuaFile("client/" .. v)
 	if doConsoleMessages then
 		print("Making 'client/" .. v .. "' avaliable for client in init.lua")
 	end
